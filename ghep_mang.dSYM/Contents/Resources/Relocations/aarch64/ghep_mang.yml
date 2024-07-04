@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/macbook/Documents/algorithms/ghep_mang'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _sort, symObjAddr: 0x0, symBinAddr: 0x100003B58, symSize: 0xEC }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _sort, symObjAddr: 0x0, symBinAddr: 0x100003B58, symSize: 0xEC }
+  - { offsetInCU: 0xB9, offset: 0xB9, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xEC, symBinAddr: 0x100003C44, symSize: 0x330 }
+...
