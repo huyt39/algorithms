@@ -8,4 +8,17 @@ for i in range(len(nums) - 1):
             arr.append(i)
             arr.append(j)
 
-print(arr)
+arr1 = []
+
+if len(arr) > 2:
+    arr1.append(arr[0])
+    arr1.append(arr[1])
+    print(arr1)
+else:
+    print(arr)
+
+
+
+
+            
+
